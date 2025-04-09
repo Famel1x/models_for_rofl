@@ -11,17 +11,17 @@
 
 ## Структура проекта
 .
-├── data/
-├── logs/
-│   ├── sarima.log
-│   ├── prophet.log
-│   └── gb_model.log
-├── models/
-├── sarima_model.py
-├── prophet_model.py
-├── gradient_boosting_model.py
-├── requirements.txt
-└── README.md
+- ├── data/
+- ├── logs/
+- │   ├── sarima.log
+- │   ├── prophet.log
+- │   └── gb_model.log
+- ├── models/
+- ├── sarima_model.py
+- ├── prophet_model.py
+- ├── gradient_boosting_model.py
+- ├── requirements.txt
+- └── README.md
 
 
 ## Требования
