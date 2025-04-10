@@ -1,7 +1,3 @@
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 # Прогнозирование месячных трат: модели временных рядов
 
 Проект представляет собой набор моделей машинного обучения для прогнозирования расходов по категориям. Реализованы 3 подхода: SARIMA, Prophet и Gradient Boosting. 
@@ -94,11 +90,11 @@
 
 ## Метрика качества (MAE)
 **MAE (Mean Absolute Error)** — средняя абсолютная ошибка прогноза. Рассчитывается по формуле:
-
+```math
 \[
 MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
 \]
-
+```
 где:
 - \(y_i\) — фактическое значение,
 - \(\hat{y}_i\) — предсказанное значение,
