@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Прогнозирование месячных трат: модели временных рядов
 
 Проект представляет собой набор моделей машинного обучения для прогнозирования расходов по категориям. Реализованы 3 подхода: SARIMA, Prophet и Gradient Boosting. 
