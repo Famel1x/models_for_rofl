@@ -90,9 +90,7 @@
 
 ## Метрика качества (MAE)
 **MAE (Mean Absolute Error)** — средняя абсолютная ошибка прогноза. Рассчитывается по формуле:
-```math
-$$ MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| $$
-```
+![MAE Formula](https://latex.codecogs.com/png.latex?MAE%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%7Cy_i%20-%20%5Chat%7By%7D_i%7C)
 где:
 - \(y_i\) — фактическое значение,
 - \(\hat{y}_i\) — предсказанное значение,
