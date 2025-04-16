@@ -69,6 +69,7 @@ if __name__ == "__main__":
             'amount': np.random.randint(500, 5000, 144)
         }
         df = pd.DataFrame(data).set_index('date')
+        df.to_excel("dasda.xlsx")
         
         # Запуск обработки
         results = train_and_predict(df)
