@@ -13,8 +13,7 @@
 
 ### 1. Склонируй и перейди в папку проекта
 ```bash
-unzip time_series_fastapi.zip
-cd time_series_fastapi
+cd models_for_rofl
 ```
 
 ### 2. Построй и запусти контейнер
